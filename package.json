@@ -1,8 +1,8 @@
 {
-  "name": "strapi",
+  "name": "nobetci-teknik-servis-strapi",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Nobetci teknik CMS",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,14 +11,14 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.5.5",
-    "@strapi/plugin-users-permissions": "4.5.5",
-    "@strapi/provider-upload-cloudinary": "4.5.5",
-    "@strapi/strapi": "4.5.5",
+    "@strapi/plugin-i18n": "4.7.1",
+    "@strapi/plugin-users-permissions": "4.7.1",
+    "@strapi/provider-upload-cloudinary": "4.7.1",
+    "@strapi/strapi": "4.7.1",
     "pg": "8.8.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "M.Salih Gumus"
   },
   "strapi": {
     "uuid": "35d7a084-3088-4d0b-869e-f503693ee8e5"
