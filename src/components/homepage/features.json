@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_homepage_features",
+  "info": {
+    "displayName": "Features",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "jobs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.feature-content",
+      "required": true,
+      "min": 3
+    }
+  }
+}
